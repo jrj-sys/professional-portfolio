@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --accent-color: yellow;
+    --header-footer-color: #095d55;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--header-footer-color);
+    height: 75px;
+
+}
+header h1 {
+    font-weight: lighter;
+    font-size: 48px;
+    color: var(--accent-color);
+}
+header nav {
+    margin: 7px 0;
+} 
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2vw;
+    text-decoration: none;
+    color: var(--accent-color)
+}
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
