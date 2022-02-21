@@ -51,7 +51,6 @@ header nav ul li {
 /* put body styling here */
 
 footer {
-    position: fixed;
     width: 100%;
     bottom: 0%;
     padding: 40px 35px;
@@ -63,8 +62,41 @@ footer h4 {
     text-align: center; 
 }
 
-.subtitle {
+.hero {
     background-image: url("../images/subtitle.jpeg");
     background-position: 100%;
-    background-position: fixed;
+    background-position: center;
+    padding-bottom: 200px;
 }
+.body-initial {
+    display: flex;
+    justify-content: space-between;
+}
+.about-me {
+    display: inline-block;
+    font-size: 24px;
+    border-right: 5px solid black;
+    padding: 0px 10px 100px 150px;
+}
+.about-me-text {
+    display: inline-block;
+    display: flex;
+    text-align: right;  
+}
+.work {
+    display: inline-block;
+    font-size: 24px;
+    border-right: 5px solid black;
+    padding: 0px 10px 400px 164px;
+    margin-top: 25px;
+}
+.contact-me {
+    display: inline-block;
+    font-size: 24px;
+    border-right: 5px solid black;
+    padding: 0px 10px 100px 60px;
+    margin-top: 25px;
+}
+
+
+
