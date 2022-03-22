@@ -75,7 +75,7 @@ footer h4 {
 .about-me {
     display: inline-block;
     font-size: 24px;
-    border-right: 5px solid black;
+    border-right: 3px solid black;
     padding: 0px 10px 100px 150px;
 }
 .about-me-text {
@@ -86,15 +86,15 @@ footer h4 {
 .work {
     display: inline-block;
     font-size: 24px;
-    border-right: 5px solid black;
+    border-right: 3px solid black;
     padding: 0px 10px 400px 164px;
     margin-top: 25px;
 }
 .contact-me {
     display: inline-block;
     font-size: 24px;
-    border-right: 5px solid black;
-    padding: 0px 10px 100px 60px;
+    border-right: 3px solid black;
+    padding: 0px 10px 100px 59px;
     margin-top: 25px;
 }
 
